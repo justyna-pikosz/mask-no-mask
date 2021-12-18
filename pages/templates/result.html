@@ -1,0 +1,7 @@
+{{ result }}
+
+
+{% if img_obj %}
+  <h5>Succesfully uploaded : {{img_obj.title}}</h5>
+  <img src="{{ img_obj.image.url}}" alt="connect" style="max-height:300px">
+{% endif %}
